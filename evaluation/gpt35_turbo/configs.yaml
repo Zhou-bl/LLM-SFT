@@ -1,0 +1,13 @@
+gpt35_turbo_instruct:
+  #api_key: "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"
+  prompt_template: "gpt35_turbo/basic_prompt.txt"
+  fn_completions: "openai_completions"
+  completions_kwargs:
+    model_name: "gpt-3.5-turbo-instruct"
+    max_tokens: 50
+    temperature: 0
+  completion_parser_kwargs:
+    outputs_to_match:
+      1: '(?:^|\n) ?Output \(a\)'
+      2: '(?:^|\n) ?Output \(b\)'
+  batch_size: 1

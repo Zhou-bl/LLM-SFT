@@ -1,0 +1,5 @@
+data/
+.ipynb_checkpoints/
+dataprocess/__pycache__/
+evaluation/data/
+save/

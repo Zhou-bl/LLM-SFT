@@ -1,0 +1,2 @@
+python evaluation/evaluator.py --model_path /cpfs01/user/juzhaoxun/baichuan --output_path evaluation/result/baichuan/baseline.json --model_name baichuan
+python evaluation/evaluator.py --model_path /cpfs01/user/juzhaoxun/DL/save/baichuan/0 --output_path evaluation/result/baichuan/epoch1_model.json --model_name baichuan

@@ -1,0 +1,2 @@
+python evaluation/evaluator.py --model_path /cpfs01/user/juzhaoxun/DL/save/epoch_1 --output_path evaluation/result/llama/epoch2_model.json
+python evaluation/evaluator.py --model_path /cpfs01/user/juzhaoxun/DL/save/epoch_2 --output_path evaluation/result/llama/epoch3_model.json

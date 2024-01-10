@@ -1,0 +1,1 @@
+alpaca_eval --model_outputs result/llama/epoch2_model.json --annotators_config /cpfs01/user/juzhaoxun/DL/evaluation/gpt35_turbo/configs.yaml
